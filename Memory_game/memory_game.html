@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="discription" content="A simple but elegent memory game is created by using javascript scripting language. This layout is designed and developed using HTML5 and CSS3.">
+    <meta name="keywords" content="HTML5,web, javascript, javascript_programming, html, css, css3,">
+    <meta name="author" content="Mahmudul Hasan">
+    <title>Simple Memory Game by Javascript</title>
+    
+    <link rel="shortcut icon" href="../favicon3.ico">
+    <link rel="stylesheet" href="memory_game.css">
+</head>
+
+<body onload="newBoard()">
+    <nav class="controls">
+        <a href="../index.html" class="buttons">Home</a>
+        <a href="../Contact_form/contact_form.html" class="buttons">Contact Form</a>
+        <a href="../Memory_game/memory_game.html" class="buttons">JS Game</a>
+        <a href="#" class="buttons">About</a>
+    </nav>
+    <div id="button">
+        <button type='button' onclick="startTime()">Time Count</button>
+        <div id="timeHolder">
+            <span id="hours">Hours</span>
+            <span id="minutes">Minutes</span>
+            <span id="seconds">Seconds</span>
+        </div>
+    </div>
+    <div id="memory_board"></div>
+
+    <script type="text/javascript" src="memory_game.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E3012E;
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+}
+
+.controls {
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.buttons {
+    color: #bbb;
+    font-size: 4vw;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+
+.button:first-child {
+    margin-left: 0;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #01A4E1;
+    display: block;
+    padding: .5em 1em;
+    line-height: 1em;
+    border: 2px solid transparent;
+    border-radius: .2em;
+}
+
+nav ul li a:hover {
+    border: 2px solid #01A4E1;
+    border-radius: .2em;
+}
+div#canvasHolder {
+    background-image: url('../images/textures_wood_pattern.png');
+    max-width: 100%;
+    height: auto;
+    text-align: center;
+    min-width: 220px;
+}
+
+div.dimention {
+    width: 100%;
+    height: auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+
+span.note {
+    border-radius: 4px;
+    padding: 5px 10px;
+    background-color: #FFCE44;
+    color: #a3a3a3;
+    line-height: 30px;
+}
+
+div.dimention button {
+    background-color: #FFFFFF;
+    color: #FF5252;
+    padding: 4px 10px;
+    border: none;
+    border-radius: 2px;
+    margin: 8px 3px;
+    font-size: 0.8em;
+}
+
+div.dimention button:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+div.contact {
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #e5eff5;
+    line-height: 2;
+    padding: 6px 12px;
+    text-align: center;
+    font-size: 18px;
+}

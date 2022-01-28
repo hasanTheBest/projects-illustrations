@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Mahmudul Hasan">
+    <meta name="description" content="HTML5 responsive and cross browser compitable contact form">
+    <title>HTML5 Contact Form</title>
+
+    <link rel="shortcut icon" href="../favicon3.ico" />
+    <link rel="stylesheet" href="contact_form.css">
+    <!-- according to wikipedia -->
+    <!--  <link rel="icon" href="favicon.ico" type="image/x-icon"> -->
+</head>
+
+<body>
+    <header>
+        <nav class="controls">
+            <a href="../index.html" class="buttons">Home</a>
+            <a href="../Contact_form/contact_form.html" class="buttons">Contact Form</a>
+            <a href="../Memory_game/memory_game.html" class="buttons">JS Game</a>
+            <a href="#" class="buttons">About</a>
+        </nav>
+    </header>
+    <section>
+        <div class="container">
+            <h2>Elegent Contact Form</h2>
+            <form action="" method="post">
+                <div class="first">
+                    <label for="name">Your Name</label>
+                    <input type="text" name="Uname" id="name" placeholder="Name" autofocus required>
+                    <label for="email">Your Email Address</label>
+                    <input type="email" name="Uemail" id="email" placeholder="Email Address" required>
+                    <label for="subject">Subject</label>
+                    <input type="text" name="Usubject" id="subject" placeholder="Subject">
+                </div>
+
+                <div class="second">
+                    <label for="message">Your massege</label>
+                    <textarea type="text" name="Umessage" id="message" placeholder="Message"></textarea>
+                </div>
+
+                <input type="submit" value="Submit">
+
+            </form>
+        </div>
+    </section>
+</body>
+
+</html>

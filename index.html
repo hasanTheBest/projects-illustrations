@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="discription" content="HTML5 canvas element based javascript clock project. A dynamic wonderful wall clock is drawn with the help of javascript and canvas element.">
+    <meta name="keywords" content="HTML5, canvas, web, javascript, html, css, css3,">
+    <meta name="author" content="Mahmudul Hasan">
+
+    <title>Javascript Illustration with HTML5 Canvas Element</title>
+    <link rel="shortcut icon" href="favicon3.ico" />
+    <link rel="stylesheet" href="clock/css/style.css">
+
+</head>
+
+<body>
+    <nav class="controls">
+        <a href="index.html" class="buttons">Home</a>
+        <a href="Contact_form/contact_form.html" class="buttons">Contact Form</a>
+        <a href="Memory_game/memory_game.html" class="buttons">JS Game</a>
+        <a href="#" class="buttons">About</a>
+    </nav>
+    <div id="canvasHolder">
+
+        <div class="dimention">
+
+            <span class="note">Hit the button to resize the clock</span><br>
+
+            <button type="button" value=100 onclick="setHeight(this.value)">100 X 100</button>
+            <button type="button" value=200 onclick="setHeight(this.value)">200 X 200</button>
+            <button type="button" value=300 onclick="setHeight(this.value)">300 X 300</button>
+            <button type="button" value=400 onclick="setHeight(this.value)">400 X 400</button>
+            <button type="button" value=500 onclick="setHeight(this.value)">500 X 500</button>
+            <button type="button" value=600 onclick="setHeight(this.value)">600 X 600</button>
+            <button type="button" value=700 onclick="setHeight(this.value)">700 X 700</button>
+            <button type="button" value=800 onclick="setHeight(this.value)">800 X 800</button>
+            <button type="button" value=900 onclick="setHeight(this.value)">900 X 900</button>
+            <button type="button" value=1000 onclick="setHeight(this.value)">1000 X 1000</button>
+
+        </div>
+
+        <canvas id="canvas" width="500" height="500"></canvas>
+    </div>
+
+    <div class="contact">
+        <p>Any kind of blame, bliss or bless directly send to <a href="mailto:rainbowmahmud@gmail.com">rainbowmahmud@gmail.com</a></p>
+    </div>
+
+    <script src="Clock/js/clock.js"></script>
+
+</body>
+
+</html>

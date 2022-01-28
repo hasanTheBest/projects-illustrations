@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:600');
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #E3012E;
+    font-size: 12px;
+    line-height: 30px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.controls {
+    text-align: center;
+    width: 100%;
+    padding: 2vh 0vh;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.buttons {
+    color: #bbb;
+    font-size: 4vw;
+    margin: 0 0.5em;
+    text-decoration: none;
+}
+
+.button:first-child {
+    margin-left: 0;
+}
+
+.button:last-child {
+    margin-right: 0;
+}
+section {
+    width: 100%;
+    height: 100%;
+}
+
+div.container {
+    width: 97%;
+    height: auto;
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 12px;
+    padding: 10px 25px;
+    margin: auto;
+    box-sizing: border-box;
+    margin-top: 16px;
+}
+
+div.container h2 {
+    color: pink;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+}
+
+label {
+    display: none;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    resize: vertical;
+    font-size: 1.7em;
+    color: #17A05D;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+    border: 2px solid #E3012E;
+    color: #1C98B7;
+}
+
+input[type=submit] {
+    width: 100%;
+    padding: 10px 22px;
+    border-radius: 8px;
+    color: #d3d3d3;
+    background-color: #17A05D;
+    border: 3px solid transparent;
+    font-size: 2.2em;
+    margin-top: 12px;
+}
+
+input[type=submit]:hover {
+    cursor: pointer;
+    border: 3px solid #17A05D;
+    border-radius: 8px;
+    background-color: #d3d3d3;
+    color: #17A05D;
+    transition: all .5s linear;
+}
+
+@media screen and (max-width: 400px) {
+    body {
+        font-size: 8px;
+    }
+    div.container {
+        width: 95%;
+    }
+}
+
+@media screen and (min-width: 401px) and (max-width: 700px) {
+    body {
+        font-size: 10px;
+    }
+    div.container {
+        width: 97%;
+    }
+}
+
+@media screen and (min-width: 701px){
+    body {
+        font-size: 12px;
+    }
+    div.container {
+        width: 97%;
+    }
+    div.first {
+        width: 50%;
+        float: left;
+        clear: both;
+    }
+    div.second {
+        width: 48%;
+        float: right;
+    }
+    div.second textarea {
+        height: 170px;
+    }
+}
